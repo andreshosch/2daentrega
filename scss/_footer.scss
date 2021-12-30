@@ -1,0 +1,20 @@
+ .color_footer {
+     background-color: $bg_madera;
+     color: black;
+ }
+ 
+ .color_redes {
+     background-color: $bg_blanco;
+     color: black;
+ }
+ 
+ .iconos_redes {
+     display: flex;
+     justify-content: center;
+     & div {
+         margin-left: 1.5rem;
+         & :hover {
+             transform: scale(1.1);
+         }
+     }
+ }
